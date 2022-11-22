@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Survey Form</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1 id="title">Guitar Quality Survey Form</h1>
+    <p id="description">Thank you for helping us improve the produte and the site</p>
+    <form id="survey-form">
+      <label id="name-label" >Enter your name: <input type="text" required id="name" placeholder="Juan Dela Cruz"></input></label>
+      <label id="email-label">Enter your e-mail: <input required id="email" type="email" placeholder="juandelacruz@gmail.com"></input></label>
+      <label id="number-label">Enter your number: <input id="number" type="number" min="8" max="16"  placeholder="12345678"></input></label>
+      <select id="dropdown"> 
+        <option>Choose and option</option>
+        <option>Only Chans</option>
+      </select>
+      <input type="radio" name="choices" value="1">Definitely</input>
+      <input type="radio" name="choices" value="2"> Not Sure</input>
+      <input type="checkbox" value="nice"></input>Nice
+      <input type="checkbox" value="juicey"></input>
+      additional comments<textarea></textarea>
+      <button id="submit">Submit</button>
+    </form>
+  </body>
+</html>
